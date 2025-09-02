@@ -9,7 +9,7 @@ import google.generativeai as genai
 #gemini_key = os.getenv("GEMINI_API_KEY")
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyBR-zCQQPLVa-ngIRZTOJrge_FEI50LNjo")  # Replace with your actual API key
+genai.configure(api_key=" Replace with your actual")  # Replace with your actual API key
 
 # Function: Prompt Gemini to generate SQL
 def get_gemini_sql(question, prompt):
